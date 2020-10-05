@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playfair Display', serif;
+}
+/* header css start here  */
+header
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+
+list-style: none;
+
+font-size: 14px;
+
+color: #626262;
+}
+nav ul li{
+
+/* list-style-type: none; */
+
+float: left;
+
+margin-left: 78px;
+font-family: 'Playfair Display', serif;
+
+/* margin-right: 2px; */
+}
+/* header css end here  */
+
+/* banner css start here  */
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* banner css end here  */
+
+
+.photodiary{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.photodiary h1{
+
+margin-bottom: 30px;
+
+font-size: 30px;
+
+color: #626262;
+
+text-transform: capitalize;
+
+/* padding-bottom: 16px; */
+}
+.photodiary h6{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.photodiary p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin-bottom: 30px;
+}
+/* photodiary end */
+
+/* lifestyle start here  */
+.lifestyle{
+    width: 80%;
+    margin: auto;
+}
+.lifestyle-content{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.lifestyle-one{
+    width: 45%;
+    float: left;
+}
+.lifestyle-one img,.lifestyle-two img{
+    width: 100%;
+}
+.lifestyle-one h6,.lifestyle-two h6{
+    color:  #b4ad9e;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-size: 14px;
+}
+.lifestyle-one h1,.lifestyle-two h1{
+    color: #626262;
+    font-size: 30px;
+    text-transform: none;
+}
+.lifestyle-one p,.lifestyle-two p{
+    font-size: 14px;
+    color: #626262;
+    margin-top: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.lifestyle-two{
+    width: 45%;
+    float: right;
+}
+/* lifestyle end here  */
+
+/* newsletter start here  */
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 50px 0px;
+    margin-bottom: 100px;
+}
+.news{
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+.news h1{
+    color: #626262;
+    font-size: 30px;
+    padding-bottom: 70px;
+}
+.news input{
+    border: none;
+    background-color:  transparent;
+    border-bottom: 1px solid;
+    width: 100%;
+    outline: none;
+}
+.news input::placeholder{
+    font-size: 14px;
+    color: #626262;
+    text-transform: none;
+}
+.icon{
+position: absolute;
+    
+right: 0%;
+    
+bottom: 0%;
+    
+
+}
+
+/* newsletter end here  */
+/* load start  */
+.load{
+
+width: 10%;
+
+margin: auto;
+}
+button{width: 160px;height: 50px;background-color: white;color: #626262;border-color: black;/* border: 8px; */border-width: 1px;font-size: 20px;margin-bottom: 100px;}
+/* load end  */
+/* footer start here  */
+
+footer{
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.terms{
+    width: 23%;
+    float: left;
+}
+.terms ul{
+    list-style: none;
+    overflow: hidden;
+    color: #101010;
+    font-size: 14px;
+}
+.terms ul li{
+    
+float: left;
+    
+margin-right: 24px;
+}
+.social-icon{
+    width: 20%;
+    float: right;
+    overflow: hidden;
+}
+.social-icon ul{
+    list-style: none;
+    color: #101010;
+    font-size: 14px;
+
+}
+.social-icon ul li{
+
+float: left;
+
+/* margin-left: 47px; */
+
+margin-left: 32px;
+}
+
+/* footer end here  */
